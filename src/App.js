@@ -6,6 +6,7 @@ import Album from './pages/Album';
 import Favorites from './pages/Favorites';
 import Profile from './pages/Profile';
 import Edit from './pages/Edit';
+import NotFound from './pages/NotFound';
 
 class App extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class App extends React.Component {
         <Route path="/Favorites" component={ Favorites } />
         <Route path="/Profile" component={ Profile } />
         <Route path="/Profile/Edit" component={ Edit } />
+        <Route path="*" component={ NotFound } />
       </BrowserRouter>
     );
   }
