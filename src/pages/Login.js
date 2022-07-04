@@ -1,6 +1,7 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 import { createUser } from '../services/userAPI';
+import Loading from './Loading';
 
 class Login extends React.Component {
   constructor() {
@@ -48,7 +49,7 @@ class Login extends React.Component {
 
   render() {
     const { user, loading, Logins } = this.state;
-    const telaLoading = <p>Carregando...</p>;
+    const telaLoading = <Loading />;
     const forms = (
       <div data-testid="page-login">
         <form className="form">
