@@ -4,7 +4,7 @@ class Favorites extends React.Component {
   render() {
     return (
       <div data-testid="page-favorites">
-        <h1>oi</h1>
+        <h1>oi fav</h1>
       </div>
     );
   }
