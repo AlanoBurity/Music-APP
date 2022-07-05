@@ -8,7 +8,7 @@ class Album extends React.Component {
         <Header />
         <div data-testid="page-album">
           <h1>
-            oi
+            oi header
           </h1>
         </div>
       </>

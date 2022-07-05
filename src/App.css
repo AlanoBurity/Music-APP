@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 700px;
+}
+
+.header {
+    display: flex;
+    width: 850px;
+    border: solid black 2px;
+    flex-direction: column;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.link1, .link2, .link3 {
+    display: flex;
+    border: solid black 2px;
+    width: 500px;
+    align-content: center;
+}
+/* .login {
+    background-color: white;
+    display: flex;
+    width: 350px;
+    height: 150px;
+    border: solid rgb(2, 2, 2) 2px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+ */

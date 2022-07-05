@@ -60,6 +60,7 @@ class Login extends React.Component {
             value={ user }
             onChange={ this.handleChange }
           />
+          <br />
           <button
             type="submit"
             name="bttn"
