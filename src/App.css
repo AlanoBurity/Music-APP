@@ -1,36 +1,27 @@
 .main {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: rgb(243, 243, 243);
-    width: 100%;
-    height: 700px;
+  align-content: center;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  width: 100%;
 }
 
 .header {
-    display: flex;
-    width: 850px;
-    border: solid black 2px;
-    flex-direction: column;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  width: 850px;
 }
+
 .nav {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
-.link1, .link2, .link3 {
-    display: flex;
-    border: solid black 2px;
-    width: 500px;
-    align-content: center;
+
+.link1 .link2 .link3 {
+  align-content: center;
+  border: solid black 2px;
+  display: flex;
+  width: 500px;
 }
-/* .login {
-    background-color: white;
-    display: flex;
-    width: 350px;
-    height: 150px;
-    border: solid rgb(2, 2, 2) 2px;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 60px;
-}
- */
