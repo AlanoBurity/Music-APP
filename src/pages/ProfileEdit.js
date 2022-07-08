@@ -1,16 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
 
-class Album extends React.Component {
+class ProfileEdit extends React.Component {
   render() {
     return (
-
-      <div data-testid="page-album">
+      <div data-testid="page-profile-edit">
         <Header />
       </div>
-
     );
   }
 }
 
-export default Album;
+export default ProfileEdit;

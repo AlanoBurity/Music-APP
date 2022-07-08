@@ -6,7 +6,7 @@ import Search from './pages/Search';
 import Album from './pages/Album';
 import Favorites from './pages/Favorites';
 import Profile from './pages/Profile';
-import Edit from './pages/Edit';
+import ProfileEdit from './pages/ProfileEdit';
 import NotFound from './pages/NotFound';
 
 class App extends React.Component {
@@ -20,7 +20,7 @@ class App extends React.Component {
             <Route path="/Album/:id" render={ (props) => <Album { ...props } /> } />
             <Route path="/Favorites" component={ Favorites } />
             <Route path="/Profile" component={ Profile } exact />
-            <Route path="/Profile/Edit" component={ Edit } />
+            <Route path="/Profile/Edit" component={ ProfileEdit } />
             <Route path="*" component={ NotFound } />
           </section>
         </main>
