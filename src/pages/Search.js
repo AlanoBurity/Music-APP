@@ -18,9 +18,9 @@ class Search extends React.Component {
 
   handleButton = () => {
     const { artist } = this.state;
-    const minCaracteres = 2;
+    const number = 2;
     this.setState({
-      buttonDisabled: artist.length < minCaracteres,
+      buttonDisabled: artist.length < number,
     });
   }
 
@@ -56,7 +56,6 @@ class Search extends React.Component {
         <form>
           <input
             data-testid="search-artist-input"
-            /*  id="artist" */
             name="artist"
             type="text"
             placeholder="Nome do Artista"

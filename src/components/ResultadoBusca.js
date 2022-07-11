@@ -15,6 +15,7 @@ class ResultadoBusca extends React.Component {
             key={ index }
             artitsName={ album.artitsName }
             collectionName={ album.collectionName }
+            artworkUrl100={ album.artworkUrl100 }
             collectionId={ album.collectionId }
           />
         ))}
